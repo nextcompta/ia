@@ -258,6 +258,7 @@ class CFENavigator:
             accept_downloads=True,
             locale="fr-FR",
             timezone_id="Europe/Paris",
+            ignore_https_errors=True,
         )
         self.page = await self.context.new_page()
 
